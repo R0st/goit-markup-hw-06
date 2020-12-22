@@ -363,6 +363,7 @@
 }
 .logo-footer {
   display: flex;
+  justify-content: space-between;
 }
 .logo-div {
   margin-bottom: 20px;

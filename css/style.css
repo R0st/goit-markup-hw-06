@@ -630,6 +630,7 @@ a {
 }
 .logo-footer {
   display: flex;
+  /* justify-content: space-around; */
 }
 .logo-div {
   margin-bottom: 20px;
@@ -638,6 +639,8 @@ a {
   color: var(--footer-color);
 }
 .footer-p {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 9px;
   color: var(--white-color);
 }
@@ -650,9 +653,11 @@ a {
 }
  /* .logo-footer.container  */
 .footer-block {
+  display: block;
+  min-width: 231px;
   padding-bottom: 0;
   margin-bottom: 0;
-  margin-right: 70px;
+  padding-right: 70px;
 }
 .footer-h3 {
   font-size: 14px;
